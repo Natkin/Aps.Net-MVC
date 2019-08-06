@@ -1,0 +1,167 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/MyStyles.css"/>
+@*    <link rel="stylesheet" type="text/css" href="~/Content/Site.css"/>*@
+@*     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">*@
+     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+     <link href="~/Content/bootstrap.css" rel="stylesheet"> 
+     <link rel="stylesheet" type="text/css" href="~/Content/jquery_styles.css" />
+    <script src="~/Scripts/Myscripts.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+        <script>
+            function reload() {
+                window.location.reload();
+            }
+    </script>
+</head>
+<body>
+  <div style="width:100%">
+       <img id="shapka" src="~/Images/card.png" style="left:0px;top:0px; position:absolute;z-index:5"/>
+       <img id="shapka2" src="~/Images/part.png" style="left:0px;top:0px; position:absolute; z-index:1; width:100%; height:60px"/>
+        <div id="text">@Html.Partial("_LoginPartial")</div> 
+       </div>
+                       <nav>
+                        <ul id="menu1">
+                            <li>@Html.ActionLink("Home", "Login", "Account")</li>
+                            <li>@Html.ActionLink("Registry", "Registry", "Home")</li>
+                            <li>@Html.ActionLink("Doctor", "Index", "DocMain")</li>
+                        </ul>
+                    </nav>
+  <div id="polosa"></div>
+  <div id="polosa2"></div>
+    <div id="whole">
+        <div id="left_bl">
+        <div id="avatar" style="float:left;margin-right:20px">
+        <img style="visibility:visible" id="img_pat" src="@ViewBag.photo" />
+        </div>
+        <div style="margin-top:5px">
+        <label id="fio">@ViewBag.fio</label>
+        <label id="adr">@ViewBag.addr</label>
+        </div>
+        </div>
+        <div id="center_bl">
+            <form id="fields" method="post" action="/Patient/Index">
+@*            @Html.Partial("Index", new { id = @ViewData["id"].ToString()})*@
+                    <div hidden="hidden"> <input name="idText" type="text" value="@Html.ViewData["id"]"/></div>
+    <div id="field">
+<ul>
+<li><a href="#tabs-1">Complaints</a></li>
+<li><a href="#tabs-2">Diagnosis</a></li>
+<li><a href="#tabs-3">Reccomendations</a></li>
+</ul>
+<div id="tabs-1">
+    <textarea name="comp" id="TextArea1" cols="20" rows="2"></textarea>
+</div>
+<div id="tabs-2">
+    <textarea name="diag" id="TextArea2" cols="20" rows="2"></textarea></div>
+<div id="tabs-3">
+    <textarea name="med" id="TextArea3" cols="20" rows="2"></textarea></div>
+</div>
+
+
+                <div id="sep_div">
+                <hr id="sep5" />
+                </div>
+
+
+             <table id="liky" style="margin-left:15px; border-top:4px; border-top-color:aqua">
+        <tr>
+            <th style="width:210px; font-size:14px">
+                Medicine
+            </th>
+            <th style="width:110px;font-size:14px"">
+                Dosage
+            </th>
+            <th style="font-size:14px"">
+                Reccomendations 
+            </th>
+        </tr>
+            </table>
+    <div class="multi-field-wrapper">
+      <div class="multi-fields">
+        <div class="multi-field">
+                    <p></p>
+
+
+            <input style="width:200px; margin-right:5px" type="text" name="stuff[]">
+            <input style="width:100px; margin-right:5px" type="text" name="stuff2[]">
+            <input style="width:200px; margin-right:5px" type="text" name="stuff3[]">
+                <i style="color:#72b9dd" class="add-field"><span style="font-size:16px" class="glyphicon glyphicon-plus"></span></i>
+
+          <i class="remove-field"><span style="font-size:15px;color:gray" class="glyphicon glyphicon-trash"></span></i>
+        </div>
+      </div>
+  </div>
+@*<script>
+    function load() {
+            $('#mess').load("@Url.Action("Index")");
+    }
+</script>*@
+
+            <input type="submit" onclick="load()" id="Button16" value="Save" style="margin-left:15px" />
+            <p id="mess"></p>
+            </form>
+        </div>
+        <div id="right_bl">
+            <div id="butons">
+@*            <button id="Button11" onclick="location.href='@Url.Action("PatientData","Analyses", new { id = @ViewBag.showid })';return false;">Patient</button>*@
+            <input id="Button12" type="button" value="GUE" />
+            <input id="Button13" type="button" value="B.C.S.F" />
+            <input id="Button14" type="button" value="C.C.T" />
+            <input id="Button15" type="button" value="History" />
+          </div>
+        </div>
+    </div>
+    <div id="footer">
+        All rights reserved Gerasimova 2014
+    </div>
+</body>
+</html>
+<script>
+    $('.multi-field-wrapper').each(function () {
+        var $wrapper = $('.multi-fields', this);
+        var x = 1;
+        var max = 3;
+        $(".add-field", $(this)).click(function (e) {
+            if (x < max) {
+                x++;
+                $('.multi-field:first-child', $wrapper).clone(true).appendTo($wrapper).find('input').val('').focus().hide().show(500);
+            }
+            else if (x == max)
+                alert("You cannot input more than 3 fields");
+        });
+        $('.multi-field .remove-field', $wrapper).click(function () {
+            if ($('.multi-field', $wrapper).length > 1)
+                $(this).parent('.multi-field').remove();
+        });
+    });
+</script>
+
+    @section scripts
+{
+    <script type="text/javascript">
+
+        $(function () {
+            $.ajaxSetup({ cache: false });
+            $(".Button16").click(function (e) {
+
+                e.preventDefault();
+                $.get(this.href, function (data) {
+                    $('#mess').html(data);
+                    $('#mess').modal('show');
+                });
+            });
+        })
+    </script>
+}
+

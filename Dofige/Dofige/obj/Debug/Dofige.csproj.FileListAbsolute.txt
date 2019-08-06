@@ -1,0 +1,207 @@
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Dofige.dll.config
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Dofige.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Dofige.pdb
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Antlr3.Runtime.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\EntityFramework.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\EntityFramework.SqlServer.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Owin.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Net.Http.Formatting.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.Helpers.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.Http.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.Http.WebHost.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.Mvc.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.Optimization.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.Razor.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.WebPages.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.WebPages.Razor.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\WebGrease.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.Helpers.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.Mvc.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.Optimization.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.Razor.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.WebPages.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.WebPages.Razor.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Antlr3.Runtime.pdb
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Net.Http.Formatting.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.Http.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\System.Web.Http.WebHost.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\EntityFramework.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\EntityFramework.SqlServer.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\obj\Debug\Dofige.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\obj\Debug\Dofige.pdb
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Ninject.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Ninject.Web.Common.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Ninject.Web.Mvc.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Rabbit.Bootstrap.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\WebActivatorEx.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Ninject.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Ninject.Web.Common.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Ninject.Web.Mvc.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\bin\Rabbit.Bootstrap.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\Dofige\Dofige\obj\Debug\Dofige.csprojResolveAssemblyReference.cache
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Dofige.dll.config
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Dofige.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Dofige.pdb
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Antlr3.Runtime.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\EntityFramework.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\EntityFramework.SqlServer.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Ninject.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Ninject.Web.Common.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Ninject.Web.Mvc.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Owin.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Rabbit.Bootstrap.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Net.Http.Formatting.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.Helpers.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.Http.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.Http.WebHost.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.Mvc.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.Optimization.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.Razor.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.WebPages.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.WebPages.Razor.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\WebActivatorEx.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\WebGrease.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Ninject.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Ninject.Web.Common.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Ninject.Web.Mvc.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Rabbit.Bootstrap.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.Helpers.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.Mvc.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.Optimization.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.Razor.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.WebPages.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.WebPages.Razor.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Antlr3.Runtime.pdb
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Net.Http.Formatting.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.Http.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\System.Web.Http.WebHost.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\EntityFramework.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\EntityFramework.SqlServer.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\obj\Debug\Dofige.csprojResolveAssemblyReference.cache
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\obj\Debug\Dofige.dll
+C:\Users\Наталия\Documents\Visual Studio 2013\Projects\MyProjects\training\Dofige\Dofige\obj\Debug\Dofige.pdb
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Dofige.dll.config
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Dofige.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Dofige.pdb
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Antlr3.Runtime.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\EntityFramework.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\EntityFramework.SqlServer.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Newtonsoft.Json.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Ninject.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Ninject.Web.Common.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Ninject.Web.Mvc.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Owin.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Rabbit.Bootstrap.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Net.Http.Formatting.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.Helpers.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.Http.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.Http.WebHost.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.Mvc.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.Optimization.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.Razor.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.WebPages.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.WebPages.Razor.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\WebActivatorEx.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\WebGrease.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Ninject.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Ninject.Web.Common.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Ninject.Web.Mvc.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Rabbit.Bootstrap.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.Helpers.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.Mvc.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.Optimization.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.Razor.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.WebPages.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.WebPages.Razor.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Antlr3.Runtime.pdb
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Net.Http.Formatting.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.Http.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\System.Web.Http.WebHost.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\EntityFramework.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\EntityFramework.SqlServer.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\obj\Debug\Dofige.csprojAssemblyReference.cache
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\obj\Debug\Dofige.csproj.CoreCompileInputs.cache
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\obj\Debug\Dofige.csproj.CopyComplete
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\obj\Debug\Dofige.dll
+C:\Users\NatalijaGerasimova\UW\Dofige\Dofige\obj\Debug\Dofige.pdb

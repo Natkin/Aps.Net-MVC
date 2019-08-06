@@ -1,0 +1,37 @@
+﻿@model IDoctor.Models.Analise
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/MyStyles.css"/>
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css"/>
+</head>
+<body>
+  <div style="width:100%">
+       <img id="shapka" src="~/Images/analize_viewer.png" style="left:0px;top:0px; position:absolute;z-index:5"/>
+       <img id="shapka2" src="~/Images/part.png" style="left:0px;top:0px; position:absolute; z-index:1; width:100%; height:60px"/>
+        <div id="text">@Html.Partial("_LoginPartial")</div> 
+        <div id="card">
+            <p>@Html.ActionLink("Card","Card","Patient")</p>
+        </div>
+       </div>
+                       <nav>
+                        <ul id="menu1">
+                            <li>@Html.ActionLink("Home", "Login", "Account")</li>
+                            <li>@Html.ActionLink("Registry", "Registry", "Home")</li>
+                            <li>@Html.ActionLink("Doctor", "Doctor", "Home")</li>
+                        </ul>
+                    </nav>
+  <div id="polosa"></div>
+  <div id="polosa2"></div>
+    <div id="whole">
+        <input id="Text1" value="@Html.DisplayFor(m=>m.Text1)" type="text" />
+        <input id="Text2" value="@Html.DisplayFor(m=>m.Text2)" type="text" />
+    </div>
+</body>
+</html>

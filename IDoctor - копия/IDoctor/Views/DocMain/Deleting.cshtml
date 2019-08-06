@@ -1,0 +1,44 @@
+﻿@model IDoctor.ElQueue
+
+@{
+    ViewBag.Title = "Deleting";
+    Layout = null;
+}
+
+<div class="modal-content">
+    <div class="modal-header">
+        <button id="cross" class="close" data-dismiss="modal">X</button>
+    </div>
+<fieldset style="text-align:center">
+
+<h3>Are you sure?</h3>
+<fieldset>
+    <legend>Patient</legend>
+
+    <div class="display-field">
+        
+    </div>
+
+    <div class="display-field">
+        @Html.DisplayFor(model => model.V_Surame)
+        @Html.DisplayFor(model => model.V_Name)
+        @Html.DisplayFor(model => model.V_Midname)
+    </div>
+
+    <div class="display-field">
+        @Html.DisplayFor(model => model.V_Date)
+        @Html.DisplayFor(model => model.V_hour):
+        @Html.DisplayFor(model => model.V_minute)
+    </div>
+
+
+</fieldset>
+ <p></p>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p style="margin-left:5px; text-align:left">
+        <input type="submit" value="Delete" />
+    </p>
+ 
+}
+          </div>

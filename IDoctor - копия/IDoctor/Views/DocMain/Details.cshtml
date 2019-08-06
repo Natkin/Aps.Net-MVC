@@ -1,0 +1,71 @@
+﻿@model IDoctor.Patient
+
+@{
+    ViewBag.Title = "Details";
+    Layout = null;
+}
+
+
+<div class="modal-content">
+    <h3>Details</h3>
+    <div class="modal-header">
+        <button id="cross" class="close" data-dismiss="modal">X</button>
+    </div>
+<fieldset id="fs">
+
+        <div class="display-field">
+         <div id="phot">
+         <img style="visibility:visible; float:left" id="img_pat" src="@Html.DisplayFor(model => model.Photo)"/>
+
+         </div>
+            <label>
+        @Html.DisplayFor(model => model.Family_Name)
+        @Html.DisplayFor(model => model.Name)
+        @Html.DisplayFor(model => model.MiddleName)
+            </label>
+            <label>
+        @Html.DisplayFor(model => model.City)
+        @Html.DisplayFor(model => model.Country)
+        @Html.DisplayFor(model => model.Postcode)
+        @Html.DisplayFor(model => model.Address)
+            </label>
+            <br />
+            <br />
+            <br />
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Age)
+        @Html.DisplayFor(model => model.Age)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Gender)
+        @Html.DisplayFor(model => model.Gender)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Phone_number)
+        @Html.DisplayFor(model => model.Phone_number)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Email)
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Birthday)
+        @Html.DisplayFor(model => model.Birthday)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LastVisitDate)
+        @Html.DisplayFor(model => model.LastVisitDate)
+    </div>
+<p></p>
+
+</fieldset>
+
+    </div>
+

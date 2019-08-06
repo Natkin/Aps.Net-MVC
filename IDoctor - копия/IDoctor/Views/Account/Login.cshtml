@@ -1,0 +1,46 @@
+﻿@model IDoctor.Models.LoginModel
+
+@{
+    ViewBag.Title = "Log in";
+    <link rel="stylesheet" type="text/css" href="~/Content/MyStyles.css"/>
+}
+
+@*<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>*@
+
+
+@*<h2>Use a local account to log in.</h2>*@
+
+@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
+    <div id="loginform">
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Log in Form</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.UserName)
+                @Html.TextBoxFor(m => m.UserName)
+                @Html.ValidationMessageFor(m => m.UserName)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Password)
+                @Html.PasswordFor(m => m.Password)
+                @Html.ValidationMessageFor(m => m.Password)
+            </li>
+            <li>
+                @Html.CheckBoxFor(m => m.RememberMe)
+                @Html.LabelFor(m => m.RememberMe, new { @class = "checkbox" })
+            </li>
+        </ol>
+        <input type="submit" id="Button2" value="LOGIN" />
+    </fieldset>
+    <p id="reg">
+        @Html.ActionLink("Registration", "Register")
+    </p>
+        </div>
+}
+
+

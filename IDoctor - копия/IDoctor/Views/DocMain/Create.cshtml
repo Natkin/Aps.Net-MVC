@@ -1,0 +1,178 @@
+﻿@model IDoctor.Patient
+
+@{
+    ViewBag.Title = "Create";
+    Layout = null;
+    @*<link rel="stylesheet" type="text/css" href="~/Content/MyStyles.css"/>*@
+     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    
+<script>
+$(function () {
+$("#data").datepicker();
+});
+</script>@*
+    
+    <script>
+        function func() {
+            $('input[type=file]').change(function () {
+                $('#phot') = "/Images/PatientsFhoto/" + this.fileUpload.name;
+                alert(fullpath);
+            });
+        }
+        </script>*@
+
+    <script type="text/javascript">
+        //function func() {
+            $(function () {
+                $('#file').on('change', function () {
+                    var filePath = "/Images/PatientsFhoto/" + $(this).val();
+                });
+            });
+        //}
+</script>
+    
+}
+
+<input id="Button1" type="file" value="button" onclick="func()" />
+<label id="lab"></label>
+
+    <div style="left:30%; top:10%; position:absolute">
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+ 
+
+
+                <h2>New Patient</h2>    
+
+        <div style="width:200px; margin-left:0px;margin-top:10px">
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Family_Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Family_Name)
+            @Html.ValidationMessageFor(model => model.Family_Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Age)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Age)
+            @Html.ValidationMessageFor(model => model.Age)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Birthday)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Birthday)
+            @Html.ValidationMessageFor(model => model.Birthday)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Gender)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Gender)
+            @Html.ValidationMessageFor(model => model.Gender)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Address)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Address)
+            @Html.ValidationMessageFor(model => model.Address)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Postcode)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Postcode)
+            @Html.ValidationMessageFor(model => model.Postcode)
+        </div>
+</div>
+    <div style="width:200px; position:absolute; left:240px;top:70px">
+            <div class="editor-label">
+            @Html.LabelFor(model => model.City)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.City)
+            @Html.ValidationMessageFor(model => model.City)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Country)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Country)
+            @Html.ValidationMessageFor(model => model.Country)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Phone_number)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Phone_number)
+            @Html.ValidationMessageFor(model => model.Phone_number)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Email)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LastVisitDate)
+        </div>
+        <div id="editor-label">
+
+            @Html.TextBoxFor(model => model.LastVisitDate, new { @id = "data" })
+            @Html.ValidationMessageFor(model => model.LastVisitDate)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DoctorFk, "Doctors")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("DoctorFk", String.Empty)
+            @Html.ValidationMessageFor(model => model.DoctorFk)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Photo)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.Photo, new { @type = "file", @id = "phot" })
+@*            @Html.TextBoxFor(model => model.Photo, new { @id = "photka" })*@
+            @Html.ValidationMessageFor(model => model.Photo)
+
+        </div>
+         <p>
+            <input type="submit" id="fileUpload" value="Create" />
+        </p>
+</div>
+
+    
+
+
+}
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

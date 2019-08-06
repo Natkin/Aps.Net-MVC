@@ -1,0 +1,27 @@
+﻿@*@model IEnumerable<IDoctor.PatInfo>*@
+
+
+@{
+    Layout = null;
+     <link rel="stylesheet" type="text/css" href="~/Content/MyStyles.css"/>
+     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+     <link href="~/Content/bootstrap.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="~/Content/jquery_styles.css" />
+    <script src="~/Scripts/Myscripts.js"></script>
+}
+<input id="Text1" type="text" value="@Html.ViewBag.show_key" />
+
+<ul>
+<li><a href="#tabs-1">Complaints</a></li>
+<li><a href="#tabs-2">Diagnosis</a></li>
+<li><a href="#tabs-3">Reccomendations</a></li>
+</ul>
+<div id="tabs-1">
+    <textarea name="comp" id="TextArea1" cols="20" rows="2"></textarea>
+</div>
+<div id="tabs-2">
+    <textarea name="diag" id="TextArea2" cols="20" rows="2"></textarea></div>
+<div id="tabs-3">
+    <textarea name="med" id="TextArea3" cols="20" rows="2"></textarea></div>

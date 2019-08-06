@@ -1,0 +1,110 @@
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\IDoctor.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\IDoctor.pdb
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\Antlr3.Runtime.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\DotNetOpenAuth.AspNet.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\DotNetOpenAuth.Core.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\DotNetOpenAuth.OAuth.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\DotNetOpenAuth.OpenId.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\EntityFramework.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\Microsoft.Web.Infrastructure.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\Newtonsoft.Json.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Net.Http.Formatting.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.Helpers.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.Http.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.Http.WebHost.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.Mvc.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.Optimization.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.Razor.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.WebPages.Deployment.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.WebPages.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.WebPages.Razor.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\WebGrease.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\WebMatrix.Data.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\WebMatrix.WebData.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\EntityFramework.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\Newtonsoft.Json.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Net.Http.Formatting.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.Helpers.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.Http.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.Http.WebHost.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.Mvc.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.Razor.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.WebPages.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.WebPages.Deployment.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\System.Web.WebPages.Razor.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\WebMatrix.Data.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\WebMatrix.WebData.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\DotNetOpenAuth.AspNet.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\DotNetOpenAuth.Core.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\DotNetOpenAuth.OAuth.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\DotNetOpenAuth.OpenId.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\obj\Debug\IDoctor.csprojResolveAssemblyReference.cache
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\obj\Debug\IDoctor.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\obj\Debug\IDoctor.pdb
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\obj\Debug\RdlCompile.cache
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor\IDoctor\obj\Debug\RdlCompile.compiled
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\IDoctor.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\IDoctor.pdb
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\Antlr3.Runtime.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\DotNetOpenAuth.AspNet.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\DotNetOpenAuth.Core.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\DotNetOpenAuth.OAuth.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\DotNetOpenAuth.OpenId.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\EntityFramework.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\Microsoft.Web.Infrastructure.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\Newtonsoft.Json.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Net.Http.Formatting.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.Helpers.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.Http.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.Http.WebHost.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.Mvc.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.Optimization.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.Razor.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.WebPages.Deployment.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.WebPages.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.WebPages.Razor.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\WebGrease.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\WebMatrix.Data.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\WebMatrix.WebData.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\EntityFramework.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\Newtonsoft.Json.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Net.Http.Formatting.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.Helpers.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.Http.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.Http.WebHost.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.Mvc.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.Razor.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.WebPages.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.WebPages.Deployment.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\System.Web.WebPages.Razor.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\WebMatrix.Data.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\WebMatrix.WebData.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\DotNetOpenAuth.AspNet.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\DotNetOpenAuth.Core.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\DotNetOpenAuth.OAuth.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\DotNetOpenAuth.OpenId.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\obj\Debug\RdlCompile.cache
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\obj\Debug\RdlCompile.compiled
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\obj\Debug\IDoctor.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\obj\Debug\IDoctor.pdb
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\PagedList.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\PagedList.Mvc.dll
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\PagedList.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\bin\PagedList.Mvc.xml
+D:\Учеба\BIONIC\Bionic .Net Web\Projects\Training\Diploma\IDoctor - копия\IDoctor\obj\Debug\IDoctor.csprojResolveAssemblyReference.cache
+C:\Users\NatalijaGerasimova\UW\IDoctor - копия\IDoctor\obj\Debug\IDoctor.csprojAssemblyReference.cache
+C:\Users\NatalijaGerasimova\UW\IDoctor - копия\IDoctor\obj\Debug\IDoctor.csproj.CoreCompileInputs.cache
+C:\Users\NatalijaGerasimova\UW\IDoctor - копия\IDoctor\obj\Debug\IDoctor.dll
+C:\Users\NatalijaGerasimova\UW\IDoctor - копия\IDoctor\obj\Debug\IDoctor.pdb

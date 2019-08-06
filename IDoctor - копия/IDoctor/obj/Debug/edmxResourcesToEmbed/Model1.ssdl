@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LabdesktopDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="LabdesktopDBModelStoreContainer">
+    <EntitySet Name="B_C_S_F" EntityType="LabdesktopDBModel.Store.B_C_S_F" store:Type="Tables" Schema="dbo" Table="B.C.S.F" />
+    <EntitySet Name="C_C_T" EntityType="LabdesktopDBModel.Store.C_C_T" store:Type="Tables" Schema="dbo" Table="C.C.T" />
+    <EntitySet Name="Doctors" EntityType="LabdesktopDBModel.Store.Doctors" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ElQueue" EntityType="LabdesktopDBModel.Store.ElQueue" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GUE" EntityType="LabdesktopDBModel.Store.GUE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Liky" EntityType="LabdesktopDBModel.Store.Liky" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Patient" EntityType="LabdesktopDBModel.Store.Patient" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PatInfo" EntityType="LabdesktopDBModel.Store.PatInfo" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_B_C_S_F_ToPat" Association="LabdesktopDBModel.Store.FK_B_C_S_F_ToPat">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="B_C_S_F" EntitySet="B_C_S_F" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CCT_ToPat" Association="LabdesktopDBModel.Store.FK_CCT_ToPat">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="C_C_T" EntitySet="C_C_T" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ElQueue_ToTable" Association="LabdesktopDBModel.Store.FK_ElQueue_ToTable">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="ElQueue" EntitySet="ElQueue" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GUE_ToPat" Association="LabdesktopDBModel.Store.FK_GUE_ToPat">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="GUE" EntitySet="GUE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Liky_ToTable" Association="LabdesktopDBModel.Store.FK_Liky_ToTable">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="Liky" EntitySet="Liky" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Patient_ToDoc" Association="LabdesktopDBModel.Store.FK_Patient_ToDoc">
+      <End Role="Doctors" EntitySet="Doctors" />
+      <End Role="Patient" EntitySet="Patient" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PatInfo_ToPat" Association="LabdesktopDBModel.Store.FK_PatInfo_ToPat">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="PatInfo" EntitySet="PatInfo" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="B_C_S_F">
+    <Key>
+      <PropertyRef Name="Pk" />
+    </Key>
+    <Property Name="Pk" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Ampicillin" Type="varchar" MaxLength="50" />
+    <Property Name="CLoXacillin" Type="varchar" MaxLength="50" />
+    <Property Name="Cefalexin" Type="varchar" MaxLength="50" />
+    <Property Name="Cefotaxim" Type="varchar" MaxLength="50" />
+    <Property Name="Ceftriaxon" Type="varchar" MaxLength="50" />
+    <Property Name="Cefoxitin" Type="varchar" MaxLength="50" />
+    <Property Name="Ciprofioxacin" Type="varchar" MaxLength="50" />
+    <Property Name="Chloramphenicol" Type="varchar" MaxLength="50" />
+    <Property Name="Clindamycin" Type="varchar" MaxLength="50" />
+    <Property Name="Tetracyein" Type="varchar" MaxLength="50" />
+    <Property Name="Doxicyclin" Type="varchar" MaxLength="50" />
+    <Property Name="Ampiclox" Type="varchar" MaxLength="50" />
+    <Property Name="Lincoycin" Type="varchar" MaxLength="50" />
+    <Property Name="Amoxyeillin" Type="varchar" MaxLength="50" />
+    <Property Name="Refampicin" Type="varchar" MaxLength="50" />
+    <Property Name="Erthromyein" Type="varchar" MaxLength="50" />
+    <Property Name="Azthromycin" Type="varchar" MaxLength="50" />
+    <Property Name="Trimcthopim" Type="varchar" MaxLength="50" />
+    <Property Name="Amoxiclave" Type="varchar" MaxLength="50" />
+    <Property Name="Streptomyein" Type="varchar" MaxLength="50" />
+    <Property Name="Gentamyein" Type="varchar" MaxLength="50" />
+    <Property Name="Amikacin" Type="varchar" MaxLength="50" />
+    <Property Name="Furadantin" Type="varchar" MaxLength="50" />
+    <Property Name="Nelidixic acid" Type="varchar" MaxLength="50" />
+    <Property Name="Penicillin" Type="varchar" MaxLength="50" />
+    <Property Name="Vancomycin" Type="varchar" MaxLength="50" />
+    <Property Name="PatFk" Type="int" />
+  </EntityType>
+  <EntityType Name="C_C_T">
+    <Key>
+      <PropertyRef Name="Pk" />
+    </Key>
+    <Property Name="Pk" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="S.GLUCOSE" Type="varchar" MaxLength="50" />
+    <Property Name="S.UREA" Type="varchar" MaxLength="50" />
+    <Property Name="S.CREATININE" Type="varchar" MaxLength="50" />
+    <Property Name="S.SODIUM" Type="varchar" MaxLength="50" />
+    <Property Name="S.POTASSIUM" Type="varchar" MaxLength="50" />
+    <Property Name="S.CHLORIDE" Type="varchar" MaxLength="50" />
+    <Property Name="S.CALCIUM" Type="varchar" MaxLength="50" />
+    <Property Name="S.PHOSPHORUS" Type="varchar" MaxLength="50" />
+    <Property Name="S.MAGNESIUM" Type="varchar" MaxLength="50" />
+    <Property Name="S.CHOLESTEROL" Type="varchar" MaxLength="50" />
+    <Property Name="S.TRIGLYCERIDES" Type="varchar" MaxLength="50" />
+    <Property Name="S.HDL" Type="varchar" MaxLength="50" />
+    <Property Name="S.LDL" Type="varchar" MaxLength="50" />
+    <Property Name="S.VLDL" Type="varchar" MaxLength="50" />
+    <Property Name="S.TOTAL PROTEINS" Type="varchar" MaxLength="50" />
+    <Property Name="S.ALBUMIN" Type="varchar" MaxLength="50" />
+    <Property Name="S.GLOBULIN" Type="varchar" MaxLength="50" />
+    <Property Name="ALGRATIO" Type="varchar" MaxLength="50" />
+    <Property Name="S.URIC ACID" Type="varchar" MaxLength="50" />
+    <Property Name="S.T.BILIRUBIN" Type="varchar" MaxLength="50" />
+    <Property Name="DIRECT" Type="varchar" MaxLength="50" />
+    <Property Name="INDIRECT" Type="varchar" MaxLength="50" />
+    <Property Name="S.ALKALINE PHOSPHTASE" Type="varchar" MaxLength="50" />
+    <Property Name="S.A.L.T(G.P.T) " Type="varchar" MaxLength="50" />
+    <Property Name="S.A.S.T(G.O.T) " Type="varchar" MaxLength="50" />
+    <Property Name="S.L.D.H" Type="varchar" MaxLength="50" />
+    <Property Name="S.C.K" Type="varchar" MaxLength="50" />
+    <Property Name="S.AMYLASE" Type="varchar" MaxLength="50" />
+    <Property Name="S.ACID PHOSPHATASE (Total)" Type="varchar" MaxLength="50" />
+    <Property Name="S.IRON" Type="varchar" MaxLength="50" />
+    <Property Name="T.I.B.C " Type="varchar" MaxLength="50" />
+    <Property Name="PatFk" Type="int" />
+  </EntityType>
+  <EntityType Name="Doctors">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Surname" Type="varchar" MaxLength="50" />
+    <Property Name="Cabinet" Type="nchar" MaxLength="10" />
+    <Property Name="MiddleName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ElQueue">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="V_Name" Type="varchar" MaxLength="50" />
+    <Property Name="V_Surame" Type="varchar" MaxLength="50" />
+    <Property Name="V_Midname" Type="varchar" MaxLength="50" />
+    <Property Name="V_Date" Type="varchar" MaxLength="50" />
+    <Property Name="V_hour" Type="nchar" MaxLength="10" />
+    <Property Name="V_minute" Type="nchar" MaxLength="10" />
+    <Property Name="PatFk" Type="int" />
+  </EntityType>
+  <EntityType Name="GUE">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Color" Type="varchar" MaxLength="50" />
+    <Property Name="Reaction" Type="varchar" MaxLength="50" />
+    <Property Name="Sugar" Type="varchar" MaxLength="50" />
+    <Property Name="Bilirubin" Type="varchar" MaxLength="50" />
+    <Property Name="Albumin" Type="varchar" MaxLength="50" />
+    <Property Name="App" Type="varchar" MaxLength="50" />
+    <Property Name="Sp GR" Type="varchar" MaxLength="50" />
+    <Property Name="Kelones" Type="varchar" MaxLength="50" />
+    <Property Name="Urabilinogen" Type="varchar" MaxLength="50" />
+    <Property Name="RbC" Type="varchar" MaxLength="50" />
+    <Property Name="Pus Cells" Type="varchar" MaxLength="50" />
+    <Property Name="Epithet Cells" Type="varchar" MaxLength="50" />
+    <Property Name="Crystal" Type="varchar" MaxLength="50" />
+    <Property Name="Casts" Type="varchar" MaxLength="50" />
+    <Property Name="Mucus" Type="varchar" MaxLength="50" />
+    <Property Name="Other" Type="varchar" MaxLength="50" />
+    <Property Name=" Parasites" Type="varchar" MaxLength="50" />
+    <Property Name="PatFk" Type="int" />
+  </EntityType>
+  <EntityType Name="Liky">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MedName" Type="varchar" MaxLength="50" />
+    <Property Name="Dosage" Type="varchar" MaxLength="50" />
+    <Property Name="Usage" Type="nvarchar(max)" />
+    <Property Name="PatFk" Type="int" />
+    <Property Name="Data" Type="date" />
+  </EntityType>
+  <EntityType Name="Patient">
+    <Key>
+      <PropertyRef Name="Pk" />
+    </Key>
+    <Property Name="Pk" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Family Name" Type="varchar" MaxLength="50" />
+    <Property Name="Age" Type="varchar" MaxLength="50" />
+    <Property Name="Gender" Type="nchar" MaxLength="2" />
+    <Property Name="Address" Type="varchar" MaxLength="50" />
+    <Property Name="Postcode" Type="varchar" MaxLength="50" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+    <Property Name="Country" Type="varchar" MaxLength="50" />
+    <Property Name="Phone number" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Birthday" Type="varchar" MaxLength="50" />
+    <Property Name="ID" Type="varchar" MaxLength="50" />
+    <Property Name="LastVisitDate" Type="varchar" MaxLength="50" />
+    <Property Name="DoctorFk" Type="int" />
+    <Property Name="MiddleName" Type="varchar" MaxLength="50" />
+    <Property Name="Photo" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PatInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Zhaloby" Type="nvarchar(max)" />
+    <Property Name="Diagnisis" Type="nvarchar(max)" />
+    <Property Name="History" Type="nchar" MaxLength="10" />
+    <Property Name="PatFk" Type="int" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Reccomendation" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_B_C_S_F_ToPat">
+    <End Role="Patient" Type="LabdesktopDBModel.Store.Patient" Multiplicity="0..1" />
+    <End Role="B_C_S_F" Type="LabdesktopDBModel.Store.B_C_S_F" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Pk" />
+      </Principal>
+      <Dependent Role="B_C_S_F">
+        <PropertyRef Name="PatFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CCT_ToPat">
+    <End Role="Patient" Type="LabdesktopDBModel.Store.Patient" Multiplicity="0..1" />
+    <End Role="C_C_T" Type="LabdesktopDBModel.Store.C_C_T" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Pk" />
+      </Principal>
+      <Dependent Role="C_C_T">
+        <PropertyRef Name="PatFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ElQueue_ToTable">
+    <End Role="Patient" Type="LabdesktopDBModel.Store.Patient" Multiplicity="0..1" />
+    <End Role="ElQueue" Type="LabdesktopDBModel.Store.ElQueue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Pk" />
+      </Principal>
+      <Dependent Role="ElQueue">
+        <PropertyRef Name="PatFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GUE_ToPat">
+    <End Role="Patient" Type="LabdesktopDBModel.Store.Patient" Multiplicity="0..1" />
+    <End Role="GUE" Type="LabdesktopDBModel.Store.GUE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Pk" />
+      </Principal>
+      <Dependent Role="GUE">
+        <PropertyRef Name="PatFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Liky_ToTable">
+    <End Role="Patient" Type="LabdesktopDBModel.Store.Patient" Multiplicity="0..1" />
+    <End Role="Liky" Type="LabdesktopDBModel.Store.Liky" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Pk" />
+      </Principal>
+      <Dependent Role="Liky">
+        <PropertyRef Name="PatFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Patient_ToDoc">
+    <End Role="Doctors" Type="LabdesktopDBModel.Store.Doctors" Multiplicity="0..1" />
+    <End Role="Patient" Type="LabdesktopDBModel.Store.Patient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctors">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Patient">
+        <PropertyRef Name="DoctorFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PatInfo_ToPat">
+    <End Role="Patient" Type="LabdesktopDBModel.Store.Patient" Multiplicity="0..1" />
+    <End Role="PatInfo" Type="LabdesktopDBModel.Store.PatInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Pk" />
+      </Principal>
+      <Dependent Role="PatInfo">
+        <PropertyRef Name="PatFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

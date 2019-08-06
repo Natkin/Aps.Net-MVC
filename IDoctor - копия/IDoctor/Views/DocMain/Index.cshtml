@@ -1,0 +1,163 @@
+﻿@model PagedList.IPagedList<IDoctor.Patient>
+
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Index";
+    
+            <link rel="stylesheet" href="@Url.Content("~/Content/bootstrap.min.css")"></link> 
+    
+}
+<header>
+
+  <div id="head" style="width:100%">
+    <img id="shapka" src="~/Images/bg4.png" style="left:0px;top:0px; position:absolute;z-index:5"/>
+    <img id="shapka2" src="~/Images/bg3.png" style="left:0px;top:0px; position:absolute; z-index:1; width:100%; height:133px"/>
+  </div>
+
+ </header>
+<div id="modDialog" class="modal fade" >
+    <div id="dialogContent" class="modal-dialog"></div>
+</div>
+
+<div id="doc_style_left" style="position:absolute;top:135px;left:3%">
+    <p></p>
+@using (Html.BeginForm("Index", "DocMain", FormMethod.Get))
+{
+    <div style="height:45px; padding-top:5px">
+    <label style="float:left; margin-right:5px" id="srch">Find by surname</label>
+    @Html.TextBox("searchString", ViewBag.CurrentFilter as string)
+    <input style="margin-bottom:8px" id="ButtonSrch" type="submit" class="btn btn-info btn-lg" value="Search"/>
+    </div>
+}
+<table class="table" style="width:700px">
+    <tr id="headers_table">
+        <th>
+            @Html.ViewBag.FN
+        </th>
+        <th>
+            @Html.ViewBag.LN
+        </th>
+
+        <th>
+            @Html.ViewBag.MN
+        </th>
+
+        <th>
+            @Html.ViewBag.Dat
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Family_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MiddleName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastVisitDate)
+        </td>
+
+
+        <td>
+            @Html.ActionLink("Details", "Details", new { id = item.Pk }, new { @class = "compItem" }) |
+            @Html.ActionLink("Card", "Card", "Patient", new { id = item.Pk.ToString() }, null)
+            @Html.ActionLink("Delete", "Delete", new { id = item.Pk }, new { @class = "compItem" })
+        </td>
+    </tr>
+}
+</table>
+
+    <div style="margin-left:20%; margin-top:5%">
+
+ <button style="margin-right:30px" class="btn btn-info btn-lg" onclick="location.href='@Url.Action("Create", new { @class = "compItem" })';return false;">New Patient</button>
+
+
+
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+    @if (Model.HasPreviousPage)
+    {
+        @Html.ActionLink("<<", "Index", new { page = 1 })
+        @Html.Raw(" ");
+        @Html.ActionLink("< Prev", "Index", new { page = Model.PageNumber - 1 })
+    }
+    else
+    {
+     @:<<
+     @Html.Raw(" ");
+        @:< Prev  
+    }
+
+    @if (Model.HasNextPage)
+    {
+        @Html.ActionLink("Next >", "Index", new { page = Model.PageNumber + 1 })
+        @Html.Raw(" ");
+        @Html.ActionLink(">>", "Index", new { page = Model.PageCount })
+    }
+    else
+    {
+     @:Next >
+     @Html.Raw(" ")
+@:>>  
+    }
+</div>
+    <div>
+@*    @Html.ActionLink("Create New", "Create", new { @class = "compItem" })*@
+    </div>
+
+</div>
+
+    @section scripts
+{
+    <script type="text/javascript">
+
+        $(function () {
+            $.ajaxSetup({ cache: false });
+            $(".compItem").click(function (e) {
+
+                e.preventDefault();
+                $.get(this.href, function (data) {
+                    $('#dialogContent').html(data);
+                    $('#modDialog').modal('show');
+                });
+            });
+        })
+    </script>
+}
+
+<div id="doc_style_right">
+    <div id="rr_bl">
+        <label id="q_labl"> @Html.ViewBag.Qu @Html.ViewBag.TD</label>
+        <table class="table" style="width:300px; margin-left:60px">
+            <tr>
+                <th>
+                    Patient
+                </th>
+                 <th>
+                    Time
+                </th>
+            </tr>
+            @foreach (var i in ViewBag.Q)
+            {
+            <tr>
+                <td>
+                    @i.V_Surame
+                </td>
+                <td>
+                    @i.V_hour:
+                    @i.V_minute
+                </td>
+         <td>
+            @Html.ActionLink("Delete", "Deleting", new { id = i.Id }, new { @class = "compItem" })
+        </td>
+            </tr>
+            }
+        </table>
+    </div>

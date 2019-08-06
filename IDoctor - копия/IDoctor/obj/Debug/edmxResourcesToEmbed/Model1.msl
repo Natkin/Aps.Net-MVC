@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LabdesktopDBModelStoreContainer" CdmEntityContainer="LabdesktopDBEntities">
+    <EntitySetMapping Name="B_C_S_F">
+      <EntityTypeMapping TypeName="LabdesktopDBModel.B_C_S_F">
+        <MappingFragment StoreEntitySet="B_C_S_F">
+          <ScalarProperty Name="Pk" ColumnName="Pk" />
+          <ScalarProperty Name="Ampicillin" ColumnName="Ampicillin" />
+          <ScalarProperty Name="CLoXacillin" ColumnName="CLoXacillin" />
+          <ScalarProperty Name="Cefalexin" ColumnName="Cefalexin" />
+          <ScalarProperty Name="Cefotaxim" ColumnName="Cefotaxim" />
+          <ScalarProperty Name="Ceftriaxon" ColumnName="Ceftriaxon" />
+          <ScalarProperty Name="Cefoxitin" ColumnName="Cefoxitin" />
+          <ScalarProperty Name="Ciprofioxacin" ColumnName="Ciprofioxacin" />
+          <ScalarProperty Name="Chloramphenicol" ColumnName="Chloramphenicol" />
+          <ScalarProperty Name="Clindamycin" ColumnName="Clindamycin" />
+          <ScalarProperty Name="Tetracyein" ColumnName="Tetracyein" />
+          <ScalarProperty Name="Doxicyclin" ColumnName="Doxicyclin" />
+          <ScalarProperty Name="Ampiclox" ColumnName="Ampiclox" />
+          <ScalarProperty Name="Lincoycin" ColumnName="Lincoycin" />
+          <ScalarProperty Name="Amoxyeillin" ColumnName="Amoxyeillin" />
+          <ScalarProperty Name="Refampicin" ColumnName="Refampicin" />
+          <ScalarProperty Name="Erthromyein" ColumnName="Erthromyein" />
+          <ScalarProperty Name="Azthromycin" ColumnName="Azthromycin" />
+          <ScalarProperty Name="Trimcthopim" ColumnName="Trimcthopim" />
+          <ScalarProperty Name="Amoxiclave" ColumnName="Amoxiclave" />
+          <ScalarProperty Name="Streptomyein" ColumnName="Streptomyein" />
+          <ScalarProperty Name="Gentamyein" ColumnName="Gentamyein" />
+          <ScalarProperty Name="Amikacin" ColumnName="Amikacin" />
+          <ScalarProperty Name="Furadantin" ColumnName="Furadantin" />
+          <ScalarProperty Name="Nelidixic_acid" ColumnName="Nelidixic acid" />
+          <ScalarProperty Name="Penicillin" ColumnName="Penicillin" />
+          <ScalarProperty Name="Vancomycin" ColumnName="Vancomycin" />
+          <ScalarProperty Name="PatFk" ColumnName="PatFk" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_C_T">
+      <EntityTypeMapping TypeName="LabdesktopDBModel.C_C_T">
+        <MappingFragment StoreEntitySet="C_C_T">
+          <ScalarProperty Name="Pk" ColumnName="Pk" />
+          <ScalarProperty Name="S_GLUCOSE" ColumnName="S.GLUCOSE" />
+          <ScalarProperty Name="S_UREA" ColumnName="S.UREA" />
+          <ScalarProperty Name="S_CREATININE" ColumnName="S.CREATININE" />
+          <ScalarProperty Name="S_SODIUM" ColumnName="S.SODIUM" />
+          <ScalarProperty Name="S_POTASSIUM" ColumnName="S.POTASSIUM" />
+          <ScalarProperty Name="S_CHLORIDE" ColumnName="S.CHLORIDE" />
+          <ScalarProperty Name="S_CALCIUM" ColumnName="S.CALCIUM" />
+          <ScalarProperty Name="S_PHOSPHORUS" ColumnName="S.PHOSPHORUS" />
+          <ScalarProperty Name="S_MAGNESIUM" ColumnName="S.MAGNESIUM" />
+          <ScalarProperty Name="S_CHOLESTEROL" ColumnName="S.CHOLESTEROL" />
+          <ScalarProperty Name="S_TRIGLYCERIDES" ColumnName="S.TRIGLYCERIDES" />
+          <ScalarProperty Name="S_HDL" ColumnName="S.HDL" />
+          <ScalarProperty Name="S_LDL" ColumnName="S.LDL" />
+          <ScalarProperty Name="S_VLDL" ColumnName="S.VLDL" />
+          <ScalarProperty Name="S_TOTAL_PROTEINS" ColumnName="S.TOTAL PROTEINS" />
+          <ScalarProperty Name="S_ALBUMIN" ColumnName="S.ALBUMIN" />
+          <ScalarProperty Name="S_GLOBULIN" ColumnName="S.GLOBULIN" />
+          <ScalarProperty Name="ALGRATIO" ColumnName="ALGRATIO" />
+          <ScalarProperty Name="S_URIC_ACID" ColumnName="S.URIC ACID" />
+          <ScalarProperty Name="S_T_BILIRUBIN" ColumnName="S.T.BILIRUBIN" />
+          <ScalarProperty Name="DIRECT" ColumnName="DIRECT" />
+          <ScalarProperty Name="INDIRECT" ColumnName="INDIRECT" />
+          <ScalarProperty Name="S_ALKALINE_PHOSPHTASE" ColumnName="S.ALKALINE PHOSPHTASE" />
+          <ScalarProperty Name="S_A_L_T_G_P_T__" ColumnName="S.A.L.T(G.P.T) " />
+          <ScalarProperty Name="S_A_S_T_G_O_T__" ColumnName="S.A.S.T(G.O.T) " />
+          <ScalarProperty Name="S_L_D_H" ColumnName="S.L.D.H" />
+          <ScalarProperty Name="S_C_K" ColumnName="S.C.K" />
+          <ScalarProperty Name="S_AMYLASE" ColumnName="S.AMYLASE" />
+          <ScalarProperty Name="S_ACID_PHOSPHATASE__Total_" ColumnName="S.ACID PHOSPHATASE (Total)" />
+          <ScalarProperty Name="S_IRON" ColumnName="S.IRON" />
+          <ScalarProperty Name="T_I_B_C_" ColumnName="T.I.B.C " />
+          <ScalarProperty Name="PatFk" ColumnName="PatFk" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Doctors">
+      <EntityTypeMapping TypeName="LabdesktopDBModel.Doctors">
+        <MappingFragment StoreEntitySet="Doctors">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Cabinet" ColumnName="Cabinet" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ElQueue">
+      <EntityTypeMapping TypeName="LabdesktopDBModel.ElQueue">
+        <MappingFragment StoreEntitySet="ElQueue">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="V_Name" ColumnName="V_Name" />
+          <ScalarProperty Name="V_Surame" ColumnName="V_Surame" />
+          <ScalarProperty Name="V_Midname" ColumnName="V_Midname" />
+          <ScalarProperty Name="V_Date" ColumnName="V_Date" />
+          <ScalarProperty Name="V_hour" ColumnName="V_hour" />
+          <ScalarProperty Name="V_minute" ColumnName="V_minute" />
+          <ScalarProperty Name="PatFk" ColumnName="PatFk" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GUE">
+      <EntityTypeMapping TypeName="LabdesktopDBModel.GUE">
+        <MappingFragment StoreEntitySet="GUE">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Reaction" ColumnName="Reaction" />
+          <ScalarProperty Name="Sugar" ColumnName="Sugar" />
+          <ScalarProperty Name="Bilirubin" ColumnName="Bilirubin" />
+          <ScalarProperty Name="Albumin" ColumnName="Albumin" />
+          <ScalarProperty Name="App" ColumnName="App" />
+          <ScalarProperty Name="Sp_GR" ColumnName="Sp GR" />
+          <ScalarProperty Name="Kelones" ColumnName="Kelones" />
+          <ScalarProperty Name="Urabilinogen" ColumnName="Urabilinogen" />
+          <ScalarProperty Name="RbC" ColumnName="RbC" />
+          <ScalarProperty Name="Pus_Cells" ColumnName="Pus Cells" />
+          <ScalarProperty Name="Epithet_Cells" ColumnName="Epithet Cells" />
+          <ScalarProperty Name="Crystal" ColumnName="Crystal" />
+          <ScalarProperty Name="Casts" ColumnName="Casts" />
+          <ScalarProperty Name="Mucus" ColumnName="Mucus" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="C_Parasites" ColumnName=" Parasites" />
+          <ScalarProperty Name="PatFk" ColumnName="PatFk" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Liky">
+      <EntityTypeMapping TypeName="LabdesktopDBModel.Liky">
+        <MappingFragment StoreEntitySet="Liky">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MedName" ColumnName="MedName" />
+          <ScalarProperty Name="Dosage" ColumnName="Dosage" />
+          <ScalarProperty Name="Usage" ColumnName="Usage" />
+          <ScalarProperty Name="PatFk" ColumnName="PatFk" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patient">
+      <EntityTypeMapping TypeName="LabdesktopDBModel.Patient">
+        <MappingFragment StoreEntitySet="Patient">
+          <ScalarProperty Name="Pk" ColumnName="Pk" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Family_Name" ColumnName="Family Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Phone_number" ColumnName="Phone number" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LastVisitDate" ColumnName="LastVisitDate" />
+          <ScalarProperty Name="DoctorFk" ColumnName="DoctorFk" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PatInfo">
+      <EntityTypeMapping TypeName="LabdesktopDBModel.PatInfo">
+        <MappingFragment StoreEntitySet="PatInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Zhaloby" ColumnName="Zhaloby" />
+          <ScalarProperty Name="Diagnisis" ColumnName="Diagnisis" />
+          <ScalarProperty Name="History" ColumnName="History" />
+          <ScalarProperty Name="PatFk" ColumnName="PatFk" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Reccomendation" ColumnName="Reccomendation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

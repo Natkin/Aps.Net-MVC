@@ -1,0 +1,24 @@
+﻿@model Dofige.DataModels.PagerModel
+
+    <table class="table">
+        <tr>
+            <th>Категория</th>
+            <th>Подкатегория</th>
+            <th>Сумма</th>
+            <th>Дата</th>
+            <th style="width:5%"></th>
+            <th style="width:5%"></th>
+        </tr>
+        @foreach (var i in Model.Finance)
+        {
+            <tr id="values">
+                <td>@i.Category.CatName</td>
+                <td>@i.Category.Subcategory.SubCatName</td>
+                <td>@i.amount</td>
+                <td>@i.data.ToString("dd.MM.yyy")</td>
+                <td><button class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-pencil" aria-hidden="true"></i></button></td>
+                <td><button class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-remove" aria-hidden="true"></i></button></td>
+            </tr>
+        }
+    </table>
+

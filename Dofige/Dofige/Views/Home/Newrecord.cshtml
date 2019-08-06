@@ -1,0 +1,135 @@
+﻿@model Dofige.DataModels.PagerModel
+@using Dofige.DataModels
+@{
+    ViewBag.Title = "Newrecord";
+}
+<script src="~/Scripts/training/NewRecord.js"></script>
+<div class="container">
+    <div class="row">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+            <div class="col-lg-7">
+                <div class="panel panel-success">
+                    <div class="panel panel-heading"></div>
+                    <div class="part_bl panel panel-body">
+                        @Default()
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="panel panel-success">
+                    <div class="panel panel-heading"></div>
+                    <div class="panel panel-body">
+                        @NewCatSub()
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="col-lg-2">
+                    <input type="submit" class="btn-primary" value="Сохранить изменения" />
+                </div>
+                <div class="col-lg-2">
+                    @Html.ActionLink("На главную", "Index", new { @style = "text-decoration:underline" })
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<div id="listpath" data-urllist_cat="@Url.Action("NewCategory", "Home")" data-urllist_subcat="@Url.Action("NewSubCategory", "Home")"></div>
+
+
+
+@helper NewCatSub()
+{
+    <div id="accordion">
+        <h3>Новая категория</h3>
+        <div>
+            <p>
+                @Category()
+            </p>
+        </div>
+        <h3>Новая подкатегория</h3>
+        <div>
+            <p>
+                @Subcategory()
+            </p>
+        </div>
+    </div>
+}
+
+
+
+
+@helper Default()
+{
+    <div id="partbl">
+        @{
+            var counter = 0;
+        }
+        @foreach (var c in ViewBag.Records)
+        {
+            <div class="input-group adding" id="conText[@counter]">
+                <input type="hidden" id="current_counter" value="@counter" />
+                <input type="hidden" id="current_date" value="@DateTime.Today.ToString("dd/MM/yyy")" />
+                <div class="butt input-group-btn">
+                    <button name="first_name" style="width:125px" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        @c.CatName
+                        <span class="caret"></span>
+                    </button>
+                    <ul id="rtList" class="dropdown-menu" role="menu">
+                        @foreach (var sub in c.Subcategories)
+                        {
+                            <li><a data-linkid="@sub.SubCatID" href="#">@sub.SubCatName</a></li>
+                        }
+                    </ul>
+                </div>
+                <div id="temp_bl[@counter]" class="input-group temp_bl">
+                    <input type="hidden" value="@c.CatID" id="category" />
+                    <input type="text" id="summ" class="form-control" />
+                    <div id="data_bl[@counter]" class="input-group data_bl">
+                        <input type="text" value="@DateTime.Today.ToString("dd/MM/yyy")" placeholder="дата" id="data[@counter]" class="data form-control" />
+                    </div>
+                    <span class="input-group-btn">
+                        <button style="background-color:none" class="btn btn-primary" id="add" type="button"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span></button>
+                    </span>
+                </div>
+                <div id="items[@counter]" class="items"></div>
+                @{
+            counter++;
+                }
+                @*@Html.TextBoxFor(x=>x.Finance[0].amount)*@
+                @*@Html.ValidationMessageFor(model => model.Finance[0].amount)*@
+            </div>
+        }
+    </div>
+}
+
+@helper Category()
+{
+    <div>
+        @foreach (var x in ViewBag.Types)
+        {
+            @Html.RadioButtonFor(m => m.Finance[0].Category.TypeModel.typeID, (object)x.typeID, new { @id = "type" })
+            <label>@x.typeName</label>
+        }
+    </div>
+    <input placeholder="название категориии" class="form-control" type="text" id="new_cat_name" />
+    <input class="btn btn-success" type="button" id="add_cat" value="Добавить категорию" />
+}
+
+
+@helper Subcategory()
+{
+    <select class="ddl form-control" data-val="true" data-val-number="The field CatID must be a number." data-val-required="Требуется поле CatID.">
+        <option value="">---</option>
+        @foreach (var i in ViewBag.Records)
+        {
+            <option value="@i.CatID">@i.CatName</option>
+        }
+    </select>
+    <input placeholder="название подкатегории" class="form-control" type="text" id="new_sub_cat_name" />
+    <input class="btn btn-success" type="button" id="add_sub_cat" value="Добавить подкатегорию" />
+}

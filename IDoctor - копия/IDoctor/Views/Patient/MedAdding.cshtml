@@ -1,0 +1,42 @@
+﻿@*@model IEnumerable<IDoctor.Liky>*@
+
+@{
+    Layout = null;
+     <link rel="stylesheet" type="text/css" href="~/Content/MyStyles.css"/>
+     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+     <link href="~/Content/bootstrap.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="~/Content/jquery_styles.css" />
+    <script src="~/Scripts/Myscripts.js"></script>
+}
+
+<input id="Text1" type="text" value="@Html.ViewBag.show_key" />
+             <table id="liky" style="margin-left:15px; border-top:4px; border-top-color:aqua">
+        <tr>
+            <th style="width:210px; font-size:14px">
+                Medicine
+            </th>
+            <th style="width:110px;font-size:14px"">
+                Dosage
+            </th>
+            <th style="font-size:14px"">
+                Reccomendations 
+            </th>
+        </tr>
+            </table>
+    <div class="multi-field-wrapper">
+      <div class="multi-fields">
+        <div class="multi-field">
+                    <p></p>
+
+
+            <input style="width:200px; margin-right:5px" type="text" name="stuff[]">
+            <input style="width:100px; margin-right:5px" type="text" name="stuff2[]">
+            <input style="width:200px; margin-right:5px" type="text" name="stuff3[]">
+                <i style="color:#72b9dd" class="add-field"><span style="font-size:16px" class="glyphicon glyphicon-plus"></span></i>
+
+          <i class="remove-field"><span style="font-size:15px;color:gray" class="glyphicon glyphicon-trash"></span></i>
+        </div>
+      </div>
+  </div>

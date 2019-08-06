@@ -1,0 +1,23 @@
+﻿
+<label>Successfully added!</label>
+
+<script type="text/javascript">
+    function GenerateReport() {
+        var str =  '@ViewBag.sur';
+        var str2 = '@ViewBag.nam';
+        var str3 = '@ViewBag.mid';
+        var str4 = '@ViewBag.hour';
+        var str5 = '@ViewBag.min';
+        document.getElementById("myReport").src = "../../Reports/Ticket.aspx?ReportID=Report1&id="+str+"&nam="+str2+"&mid="+str3+"&h="+str4+"&m="+str5
+}
+</script>
+  <div id="head" style="width:100%">
+       <img id="shapka" src="~/Images/bg2.png" style="left:0px;top:0px; position:absolute;z-index:5"/>
+  </div>
+
+
+<link rel="stylesheet" type="text/css" href="~/Content/MyStyles.css"/>
+            <div id="report_form" style="position:absolute;top:145px">
+            <iframe id="myReport" class=".compItem" style="width:700px;height:320px; border:none"></iframe>
+            <input type="button" style="margin-top:5px" id="Button1" value="Generate Ticket" onclick="GenerateReport();" />
+            </div>

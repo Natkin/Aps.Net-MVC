@@ -1,0 +1,93 @@
+﻿@{
+    ViewBag.Title = "Doctor";
+
+}
+<header>
+<link rel="stylesheet" type="text/css" href="~/Content/MyStyles.css"/>
+    <script>
+        function makevisible_left() {
+            $('#hiddenList').show();
+        }
+        function makeinvisible_left() {
+            $('#hiddenList').hide();
+        }
+        function get_id() {
+            var str='@ViewBag.pk';
+        }
+        function DisplayHidden(d) {
+            if (document.getElementById(d).style.display == "none")
+            { document.getElementById(d).style.display = "block"; }
+            else { document.getElementById(d).style.display = "none"; }
+        }
+
+    </script>
+</header>
+<body>
+  <div id="head" style="width:100%">
+    <img id="shapka" src="~/Images/bg4.png" style="left:0px;top:0px; position:absolute;z-index:5"/>
+    <img id="shapka2" src="~/Images/bg3.png" style="left:0px;top:0px; position:absolute; z-index:1; width:99.8%; height:133px"/>
+  </div>
+
+        <form action="/Home/Doctor" method="post">
+
+@*            <div></div>*@
+
+        <div id="content_center">
+         <label id="PatList">Choose Patient</label>
+         <div id="hiddenText" hidden="hidden">
+         <label hidden="hidden" id="reg_part">@Html.Partial("GetIndex")</label>
+        </div>
+          <br />
+         <hr id="sep2" />
+            <br />
+
+         @Html.ListBox("Lastnames", null, new {@id="ddl"})  
+        <input id="Button1" type="submit" value="Show" />                                
+        </div>
+
+    <div id=content-right>
+        @Html.Partial("Subcard")
+
+@*        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#ddl").change(function () {
+                    var categoryId = $("#ddl").val();
+                    $("#content-right").load('@(Url.Action("Subcard","Home",null, Request.Url.Scheme))?categoryId=' + categoryId);
+        });
+    });
+</script> *@ 
+@*         <label id="PatList2">Detailed Data</label>
+          <br />
+         <hr id="sep3" />
+            <br />
+        <div id="phot">
+        <img style="visibility:visible" id="img_pat" src="@Html.ViewBag.Photo"/>
+        </div>
+    <div>
+    <label id="l11">Full Name: </label>
+    <label id="patdat" >@ViewBag.Text</label>
+   <label id="l12">Address: </label>
+    <label id="pataddr">@ViewBag.addr</label>
+    </div>
+        <div id="contacts">
+            <label id="l16">Age: @ViewBag.age</label>
+            <label id="l17">Date of Birth: @ViewBag.bd</label>
+            <label id="l18">Telephone: @ViewBag.tel</label>
+            <label id="l181">Email: @ViewBag.mail</label>
+            <label id="l19">Last visit date: @ViewBag.visited</label>
+        </div>
+       <button id="Button4" onclick="location.href='@Url.Action("Card", "Patient", new { id = @ViewBag.pk })';return false;">Card</button>*@
+    </div>
+            </form>
+    <div id="content_left">
+
+         <label id="PatList3">Queue @Html.ViewBag.Date</label>
+          <br />
+         <hr id="sep4" />
+            <br />
+        <div id="hiddenList" hidden="hidden">
+            <label style="white-space: pre-line">@Html.ViewBag.Time</label>
+        </div>
+          <input id="Button3" type="button" value="Show/Hide" onmouseover="makevisible_left()" onmouseout="makeinvisible_left()"/>
+    </div>
+  </body>

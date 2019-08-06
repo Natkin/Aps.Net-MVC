@@ -1,0 +1,24 @@
+﻿@*    <div id=content-right>*@
+         <label id="PatList2">Detailed Data</label>
+          <br />
+         <hr id="sep3" />
+            <br />
+        <div id="phot">
+        <img style="visibility:visible" id="img_pat" src="@Html.ViewBag.Photo"/>
+        </div>
+    <div>
+    <label id="l11">Full Name: </label>
+    <label id="patdat" >@ViewBag.Text</label>
+   <label id="l12">Address: </label>
+    <label id="pataddr">@ViewBag.addr</label>
+    </div>
+        <div id="contacts">
+            <label id="l16">Age: @ViewBag.age</label>
+@*            <input id="it1" type="text" value="Age" />*@
+            <label id="l17">Date of Birth: @ViewBag.bd</label>
+            <label id="l18">Telephone: @ViewBag.tel</label>
+            <label id="l181">Email: @ViewBag.mail</label>
+            <label id="l19">Last visit date: @ViewBag.visited</label>
+        </div>
+       <button id="Button4" onclick="location.href='@Url.Action("Card", "Patient", new { id = @ViewBag.pk })';return false;">Card</button>
+  @*  </div>*@

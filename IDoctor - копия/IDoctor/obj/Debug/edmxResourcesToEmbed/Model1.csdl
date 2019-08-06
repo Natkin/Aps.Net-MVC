@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LabdesktopDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="LabdesktopDBEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="B_C_S_F" EntityType="LabdesktopDBModel.B_C_S_F" />
+    <EntitySet Name="C_C_T" EntityType="LabdesktopDBModel.C_C_T" />
+    <EntitySet Name="Doctors" EntityType="LabdesktopDBModel.Doctors" />
+    <EntitySet Name="ElQueue" EntityType="LabdesktopDBModel.ElQueue" />
+    <EntitySet Name="GUE" EntityType="LabdesktopDBModel.GUE" />
+    <EntitySet Name="Liky" EntityType="LabdesktopDBModel.Liky" />
+    <EntitySet Name="Patient" EntityType="LabdesktopDBModel.Patient" />
+    <EntitySet Name="PatInfo" EntityType="LabdesktopDBModel.PatInfo" />
+    <AssociationSet Name="FK_B_C_S_F_ToPat" Association="LabdesktopDBModel.FK_B_C_S_F_ToPat">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="B_C_S_F" EntitySet="B_C_S_F" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CCT_ToPat" Association="LabdesktopDBModel.FK_CCT_ToPat">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="C_C_T" EntitySet="C_C_T" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Patient_ToDoc" Association="LabdesktopDBModel.FK_Patient_ToDoc">
+      <End Role="Doctors" EntitySet="Doctors" />
+      <End Role="Patient" EntitySet="Patient" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ElQueue_ToTable" Association="LabdesktopDBModel.FK_ElQueue_ToTable">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="ElQueue" EntitySet="ElQueue" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GUE_ToPat" Association="LabdesktopDBModel.FK_GUE_ToPat">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="GUE" EntitySet="GUE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Liky_ToTable" Association="LabdesktopDBModel.FK_Liky_ToTable">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="Liky" EntitySet="Liky" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PatInfo_ToPat" Association="LabdesktopDBModel.FK_PatInfo_ToPat">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="PatInfo" EntitySet="PatInfo" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="B_C_S_F">
+    <Key>
+      <PropertyRef Name="Pk" />
+    </Key>
+    <Property Name="Pk" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Ampicillin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CLoXacillin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Cefalexin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Cefotaxim" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Ceftriaxon" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Cefoxitin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Ciprofioxacin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Chloramphenicol" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Clindamycin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Tetracyein" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Doxicyclin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Ampiclox" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Lincoycin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Amoxyeillin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Refampicin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Erthromyein" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Azthromycin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Trimcthopim" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Amoxiclave" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Streptomyein" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Gentamyein" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Amikacin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Furadantin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Nelidixic_acid" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Penicillin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Vancomycin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PatFk" Type="Int32" />
+    <NavigationProperty Name="Patient" Relationship="LabdesktopDBModel.FK_B_C_S_F_ToPat" FromRole="B_C_S_F" ToRole="Patient" />
+  </EntityType>
+  <EntityType Name="C_C_T">
+    <Key>
+      <PropertyRef Name="Pk" />
+    </Key>
+    <Property Name="Pk" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="S_GLUCOSE" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_UREA" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_CREATININE" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_SODIUM" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_POTASSIUM" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_CHLORIDE" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_CALCIUM" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_PHOSPHORUS" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_MAGNESIUM" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_CHOLESTEROL" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_TRIGLYCERIDES" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_HDL" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_LDL" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_VLDL" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_TOTAL_PROTEINS" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_ALBUMIN" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_GLOBULIN" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ALGRATIO" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_URIC_ACID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_T_BILIRUBIN" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DIRECT" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="INDIRECT" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_ALKALINE_PHOSPHTASE" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_A_L_T_G_P_T__" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_A_S_T_G_O_T__" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_L_D_H" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_C_K" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_AMYLASE" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_ACID_PHOSPHATASE__Total_" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="S_IRON" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="T_I_B_C_" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PatFk" Type="Int32" />
+    <NavigationProperty Name="Patient" Relationship="LabdesktopDBModel.FK_CCT_ToPat" FromRole="C_C_T" ToRole="Patient" />
+  </EntityType>
+  <EntityType Name="Doctors">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Surname" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Cabinet" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="MiddleName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Patient" Relationship="LabdesktopDBModel.FK_Patient_ToDoc" FromRole="Doctors" ToRole="Patient" />
+  </EntityType>
+  <EntityType Name="ElQueue">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="V_Name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="V_Surame" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="V_Midname" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="V_Date" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="V_hour" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="V_minute" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="PatFk" Type="Int32" />
+    <NavigationProperty Name="Patient" Relationship="LabdesktopDBModel.FK_ElQueue_ToTable" FromRole="ElQueue" ToRole="Patient" />
+  </EntityType>
+  <EntityType Name="GUE">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Color" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Reaction" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Sugar" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Bilirubin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Albumin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="App" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Sp_GR" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Kelones" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Urabilinogen" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="RbC" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Pus_Cells" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Epithet_Cells" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Crystal" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Casts" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Mucus" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Other" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="C_Parasites" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PatFk" Type="Int32" />
+    <NavigationProperty Name="Patient" Relationship="LabdesktopDBModel.FK_GUE_ToPat" FromRole="GUE" ToRole="Patient" />
+  </EntityType>
+  <EntityType Name="Liky">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="MedName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Dosage" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Usage" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PatFk" Type="Int32" />
+    <Property Name="Data" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Patient" Relationship="LabdesktopDBModel.FK_Liky_ToTable" FromRole="Liky" ToRole="Patient" />
+  </EntityType>
+  <EntityType Name="Patient">
+    <Key>
+      <PropertyRef Name="Pk" />
+    </Key>
+    <Property Name="Pk" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Family_Name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Age" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Gender" Type="String" MaxLength="2" Unicode="true" FixedLength="true" />
+    <Property Name="Address" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Postcode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Country" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Phone_number" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Birthday" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="LastVisitDate" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DoctorFk" Type="Int32" />
+    <Property Name="MiddleName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Photo" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="B_C_S_F" Relationship="LabdesktopDBModel.FK_B_C_S_F_ToPat" FromRole="Patient" ToRole="B_C_S_F" />
+    <NavigationProperty Name="C_C_T" Relationship="LabdesktopDBModel.FK_CCT_ToPat" FromRole="Patient" ToRole="C_C_T" />
+    <NavigationProperty Name="Doctors" Relationship="LabdesktopDBModel.FK_Patient_ToDoc" FromRole="Patient" ToRole="Doctors" />
+    <NavigationProperty Name="ElQueue" Relationship="LabdesktopDBModel.FK_ElQueue_ToTable" FromRole="Patient" ToRole="ElQueue" />
+    <NavigationProperty Name="GUE" Relationship="LabdesktopDBModel.FK_GUE_ToPat" FromRole="Patient" ToRole="GUE" />
+    <NavigationProperty Name="Liky" Relationship="LabdesktopDBModel.FK_Liky_ToTable" FromRole="Patient" ToRole="Liky" />
+    <NavigationProperty Name="PatInfo" Relationship="LabdesktopDBModel.FK_PatInfo_ToPat" FromRole="Patient" ToRole="PatInfo" />
+  </EntityType>
+  <EntityType Name="PatInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Zhaloby" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Diagnisis" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="History" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="PatFk" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Reccomendation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Patient" Relationship="LabdesktopDBModel.FK_PatInfo_ToPat" FromRole="PatInfo" ToRole="Patient" />
+  </EntityType>
+  <Association Name="FK_B_C_S_F_ToPat">
+    <End Role="Patient" Type="LabdesktopDBModel.Patient" Multiplicity="0..1" />
+    <End Role="B_C_S_F" Type="LabdesktopDBModel.B_C_S_F" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Pk" />
+      </Principal>
+      <Dependent Role="B_C_S_F">
+        <PropertyRef Name="PatFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CCT_ToPat">
+    <End Role="Patient" Type="LabdesktopDBModel.Patient" Multiplicity="0..1" />
+    <End Role="C_C_T" Type="LabdesktopDBModel.C_C_T" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Pk" />
+      </Principal>
+      <Dependent Role="C_C_T">
+        <PropertyRef Name="PatFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Patient_ToDoc">
+    <End Role="Doctors" Type="LabdesktopDBModel.Doctors" Multiplicity="0..1" />
+    <End Role="Patient" Type="LabdesktopDBModel.Patient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctors">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Patient">
+        <PropertyRef Name="DoctorFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ElQueue_ToTable">
+    <End Role="Patient" Type="LabdesktopDBModel.Patient" Multiplicity="0..1" />
+    <End Role="ElQueue" Type="LabdesktopDBModel.ElQueue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Pk" />
+      </Principal>
+      <Dependent Role="ElQueue">
+        <PropertyRef Name="PatFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GUE_ToPat">
+    <End Role="Patient" Type="LabdesktopDBModel.Patient" Multiplicity="0..1" />
+    <End Role="GUE" Type="LabdesktopDBModel.GUE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Pk" />
+      </Principal>
+      <Dependent Role="GUE">
+        <PropertyRef Name="PatFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Liky_ToTable">
+    <End Role="Patient" Type="LabdesktopDBModel.Patient" Multiplicity="0..1" />
+    <End Role="Liky" Type="LabdesktopDBModel.Liky" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Pk" />
+      </Principal>
+      <Dependent Role="Liky">
+        <PropertyRef Name="PatFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PatInfo_ToPat">
+    <End Role="Patient" Type="LabdesktopDBModel.Patient" Multiplicity="0..1" />
+    <End Role="PatInfo" Type="LabdesktopDBModel.PatInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Pk" />
+      </Principal>
+      <Dependent Role="PatInfo">
+        <PropertyRef Name="PatFk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

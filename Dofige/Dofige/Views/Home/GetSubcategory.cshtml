@@ -1,0 +1,12 @@
+﻿@model Dofige.DataModels.PagerModel
+<label>Choose subcategory</label>
+@*@Html.DropDownListFor(m => m.Finance[0].Category.Subcategory.SubCatID, (ViewBag.Subcategories as SelectList),"---", new { @class = "sub_ddl form-control", value="{0}" })*@
+
+
+<select class="sub_ddl form-control" data-val="true" data-val-number="The field SubCatID must be a number." data-val-required="Требуется поле SubCatID.">
+    <option value="">---</option>
+    @foreach (var i in ViewBag.Subcategory)
+    {
+        <option value="@i.SubCatID">@i.SubCatName</option>
+    }
+</select>

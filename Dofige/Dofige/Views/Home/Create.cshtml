@@ -1,0 +1,59 @@
+﻿@model Dofige.DataModels.PagerModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<script src="~/Scripts/FinancialMain.js"></script>
+<div id="progresfile">
+    <img src="~/Images/progress-bar.gif" alt="Триває запит до сервера" />
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            @using (Html.BeginForm())
+            {
+
+                <div class="col-lg-5">
+                    <div class="panel panel-success">
+                        <div class="panel panel-heading"></div>
+                        <div class="panel panel-body">
+                            <div id="items" class="col-lg-10"></div>
+                        </div>
+                        <div class="panel panel-footer">
+                            <input type="submit" class="btn-primary" value="Save changes" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="panel panel-info">
+                        <div class="panel panel-heading"></div>
+                        <div class="panel panel-body">
+                            @CategoryList()
+                            <div class="subbl col-lg-5"></div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<div id="listpath" data-urllist="@Url.Action("GetSubcategory","Home")" data-urllist_doc="@Url.Action("AllDocuments", "Request" )"></div>
+
+
+@helper CategoryList()
+{
+    <div class="col-lg-5">
+        <label>Choose category</label>
+        <select class="ddl form-control" data-val="true" data-val-number="The field CatID must be a number." data-val-required="Требуется поле CatID.">
+            <option value="">---</option>
+            <option value="1">Магазин</option>
+            <option value="2">Машина</option>
+            <option value="3">Котяква</option>
+            <option value="4">Квартира</option>
+            <option value="5">Развлечения</option>
+            <option value="6">Одежда</option>
+            <option value="7">Прочее</option>
+        </select>
+    </div>
+}

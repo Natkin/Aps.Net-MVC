@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Rabbit.Bootstrap.MVC</id>
+    <version>1.1.0.0</version>
+    <title>Bootstrap for MVC</title>
+    <authors>majian</authors>
+    <owners>majian</owners>
+    <projectUrl>https://bootstrapformvc.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Bootstrap for MVC.</description>
+    <tags>Bootstrap MVC Rabbit</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Mvc" version="4.0.30506" />
+      <dependency id="Twitter.Bootstrap" />
+    </dependencies>
+  </metadata>
+</package>
